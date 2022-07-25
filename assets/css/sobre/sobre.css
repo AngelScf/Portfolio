@@ -1,9 +1,11 @@
 .sobre{
     padding: 2rem;
+    margin: 5rem 0;
 }
 
 .sobre__descripcion{
     font-family: var(--gothic);
     font-size: 1.4rem;
     padding: 1rem 2rem;
+    line-height: 1.8rem;
 }
