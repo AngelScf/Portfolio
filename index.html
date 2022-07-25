@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/cabecera/cabecera.css">
+    <link rel="stylesheet" href="/assets/css/menu/menu.css">
+    <link rel="stylesheet" href="/assets/css/banner/banner.css">
+    <link rel="stylesheet" href="/assets/css/sobre/sobre.css">
+    <link rel="stylesheet" href="/assets/css/skills/skill.css">
+    <link rel="stylesheet" href="/assets/css/hobbies/hobbies.css">
+    <link rel="stylesheet" href="/assets/css/formacion/card.css">
+    <link rel="stylesheet" href="/assets/css/proyectos/proyectos__card.css">
+    <link rel="stylesheet" href="/assets/css/contacto/form.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto__boton.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer.css">
+    <title>Angel Dev</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <h2 class="cabecera__nombre">Paula Villegas</h2>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link cabecera__link" id="activo" href="#">Sobre mi</a></li>
+                <li class="menu__item"><a class="menu__link cabecera__link" href="#">Skills</a></li>
+                <li class="menu__item"><a class="menu__link cabecera__link" href="#">Hobbies</a></li>
+                <li class="menu__item"><a class="menu__link cabecera__link" href="#">Formación</a></li>
+                <li class="menu__item"><a class="menu__link cabecera__link" href="#">Proyectos</a></li>
+                <li class="menu__item"><a class="menu__link cabecera__link" href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+
+        <!---Inicia seccion banner-->
+
+        <section class="banner">
+            <img src="./assets/img/perfil_liviano.PNG" alt="Foto de perfil Paula Villegas" class="banner__img">
+            <h1 class="banner__titulo"></h1>
+            <p class="banner__descripcion"></p>
+            <nav class="menu  banner__menu">
+                <h2 class="banner__titulo">Hola, mi nombre es Paula Villegas y construyo paginas web</h2>
+                <p class="banner__descripcion"> En la actualidad me encuentro cursando el segundo año en la carrera de Ingeniería en Informática, tengo una formacion FullStack con Java 
+                    para desarrollo web, tengo un gran interes por el sector dedicado a la ciberseguridad y los idiomas.
+                </p>
+                <ul class="menu__lista">
+                    <li class="menu__item"><a href="https://github.com/AngelScf" class="banner__link" target="_blank">Github&#11016;</a></li>
+                    <li class="menu__item"><a href="https://www.linkedin.com/in/paula-villegas-34b2a8209/" class="banner__link" target="_blank">Linkedin&#11016;</a></li>
+                    <li class="menu__item"><a href="#" class="banner__link" target="_blank">Instagram&#11016;</a></li>
+                    <li class="menu__item"><a href="./assets/CV-2022.pdf" class="banner__link" target="_blank">Curriculum&#11016;</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!----------------Inicia seccion sobre mi ------------------------>
+
+        <section class="sobre">
+            <h2 class="sobre__titulo titulo">Sobre mi</h2>
+            <p class="sobre__descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+                consequatur vel quae ea recusandae ex repellat, voluptate voluptatibus quam iste totam esse quo
+                voluptatem animi nemo repudiandae cumque. Ipsam, quas!</p>
+            <p class="sobre__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque excepturi ex,
+                accusantium aperiam sit hic cupiditate illo ut minima! Obcaecati qui mollitia eveniet nihil! Voluptas
+                natus eos adipisci? Atque, asperiores.</p>
+        </section>
+
+        <!----------------Inicia seccion skills------------------------>
+
+        <section class="skills">
+            <h2 class="titulo">Habilidades</h2>
+            <ul class="skill__lista lista">
+                <li class="skill__item"><img src="./assets/img/html-logo.png" alt="Logo html5" class="skill__imagen">HTML</li>
+                <li class="skill__item"><img src="./assets/img/logo-css.png" alt="Logo CSS" class="skill__imagen">CSS</li>
+                <li class="skill__item"><img src="./assets/img/logo-bootstrap.png" alt="Logo Bootstrap" class="skill__imagen">Bootstrap</li>
+                <li class="skill__item"><img src="./assets/img/logo-js.png" alt="Logo Javascript" class="skill__imagen">Javascript</li>
+                <li class="skill__item"><img src="./assets/img/logo-java.png" alt="Logo Java" class="skill__imagen">Java</li>
+                <li class="skill__item"><img src="./assets/img/logo-python.png" alt="Logo Python" class="skill__imagen">Python</li>
+            </ul>
+        </section>
+        <br>
+        <!----------------Inicia seccion hobbies------------------------>
+
+        <section class="hobbies">
+            <h2 class="titulo">Hobbies</h2>
+            <ul class="hobbies__lista lista">
+                <li class="hobbies__items"><img src="./assets/img/logo-dibujo.png" class="hobbies__img">Ilustración digital y tradicional</li>
+                <li class="hobbies__items"><img src="./assets/img/logo-languages.png" class="hobbies__img">Idiomas</li>
+                <li class="hobbies__items"><img src="./assets/img/logo-coding.png" class="hobbies__img img-align">Programación</li>
+                <li class="hobbies__items"><img src="./assets/img/logo-gaming.png" class="hobbies__img img-align">Videojuegos</li>
+                <li class="hobbies__items"><img src="./assets/img/logo-reading.png" class="hobbies__img">Leer</li>
+            </ul>
+        </section>
+
+        <!----------------Inicia seccion hobbies------------------------>
+
+        <section class="formacion">
+            <h2 class="titulo">Formacion académica</h2>
+            <div class="card-container">
+                <div class="formacion__card">
+                    <img src="/assets/img/aluraicon.png" alt="Logo alura" class="card__img">
+                    <h3 class="card__titulo">Fullstack Developer</h3>
+                    <p class="card__fecha"> 2022 En curso - Alura & Oracle Next Education</p>
+                </div>
+                <div class="formacion__card">
+                    <img src="/assets/img/logo-codoacodo.png" alt="Logo Codo a Codo" class="card__img">
+                    <h3 class="card__titulo">Desarrollador FullStack con Java</h3>
+                    <p class="card__fecha"> 2021 (4 meses) 18/6 a 16/12 - Codo a Codo 4.0</p>
+                </div>
+                <div class="formacion__card">
+                    <img src="/assets/img/UNAJ_RGB-01.jpg" alt="Logo unaj" class="card__img">
+                    <h3 class="card__titulo">Ingeniería en Informática</h3>
+                    <p class="card__fecha"> 2021-En curso - Universidad Arturo Jauretche</p>
+                </div>
+                <div class="formacion__card">
+                    <img src="/assets/img/cisco-png-logo-3765.png" alt="Logo cisco" class="card__img cisco__logo">
+                    <h3 class="card__titulo">Introducción a la Ciberseguridad</h3>
+                    <p class="card__fecha"> 2021 (Asíncronico) - Cisco Networking Academy</p>
+                </div>
+            </div>
+        </section>
+
+        <!----------------Inicia seccion proyectos------------------------>
+        <section class="proyectos">
+            <h2 class="titulo">Proyectos</h2>
+            <div class="proyecto__card">
+                <div class="proyecto__titulo-container">
+                    <h2 class="proyecto__titulo">Encriptador de texto</h2>
+                    <p class="proyecto__descripcion"> Codificador de texto</p>
+                    <button id="repositorio-encriptador" class="proyecto__repositorio-boton boton"><a href="#"
+                            class="boton_link"> Repositorio </a></button>
+                    <button class="proyecto__demo-boton boton"> <a href="#" class="boton_link"> Ver demo </a></button>
+                </div>
+                <img src="/assets/img/encriptador.PNG" alt="" class="proyecto__imagen">
+            </div>
+            <div class="proyecto__card">
+                <img src="/assets/img/encriptador.PNG" alt="" class="proyecto__imagen">
+                <div class="proyecto__titulo-container">
+                    <h2 class="proyecto__titulo">Encriptador de texto</h2>
+                    <p class="proyecto__descripcion"> Codificador de texto</p>
+                    <button id="repositorio-encriptador" class="proyecto__repositorio-boton boton"><a href="#"
+                            class="boton_link"> Repositorio </a></button>
+                    <button class="proyecto__demo-boton boton"> <a href="#" class="boton_link"> Ver demo </a></button>
+                </div>
+            </div>
+        </section>
+
+        <!----------------Inicia seccion contacto------------------------>
+        <section class="contacto">
+            <img src="/assets/img/contacto.png" alt="Imagen contacto" class="contacto__img">
+            <form action="submit" class="contacto__form">
+                <h2 class="contacto__titulo">Contacto</h2>
+                <p class="contacto__descripcion"> <span class="contacto__subtitulo">¿Quieres contactarme? </span> <br> Complete el siguiente fomulario y me pondre
+                    en contacto con usted lo antes posible</p>
+                <label for="nombre" class="contacto__label">Nombre</label>
+                <input type="text" class="contacto__input" name="nombre" placeholder="Tu nombre completo">
+                <label for="email" class="contacto__label">Email</label>
+                <input type="email" class="contacto__input" name="email" placeholder="Example010@email.com">
+                <label for="asunto" class="contacto__label">Asunto</label>
+                <input type="text" class="contacto__input" name="asunto" placeholder="Asunto">
+                <textarea name="mensaje" id="text-mensaje" cols="30" rows="10" class="contacto__mensaje" placeholder="Escriba su mensaje aqui"></textarea>
+                <button type="button" class="contacto__boton boton">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__firma firma">Desarrollado por Paula Villegas</p> 
+        <p class="footer__firma firma__fecha">2022</p>
+    </footer>
+</body>
+
+<script src="/assets/js/form-boton.js"></script>
+
+</html>

@@ -1,0 +1,9 @@
+.sobre{
+    padding: 2rem;
+}
+
+.sobre__descripcion{
+    font-family: var(--gothic);
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+}

@@ -1,0 +1,40 @@
+:root{
+    /*----colores----*/
+    --light-blue:#E1F5F3;
+    --soft-blue:#B3E5FC;
+    --blue:#29b6f6;
+    --medium-blue:#0277bd;
+    --dark-blue:#01579b;
+    --clean-gradient:linear-gradient(180deg, rgba(227,243,250,1) 0%, rgba(163,221,247,1) 75%, rgba(227,243,250,1) 100%);
+    --gradient-clasic: linear-gradient(180deg, rgba(179,229,252,1) 0%, rgba(41,182,246,1) 95%);
+    /*---fuentes---*/   
+    --gothic:'Nanum Gothic', sans-serif;
+}
+
+
+.principal{
+    background: var(--clean-gradient);
+}
+
+.titulo{
+    padding: 2rem;
+    text-align: center;
+    font-size: 2.1875rem;
+    color: var(--medium-blue);
+    font-family: var(--gothic);
+    font-weight: 800;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--medium-blue);
+    font-family: var(--gothic);
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2rem;
+}

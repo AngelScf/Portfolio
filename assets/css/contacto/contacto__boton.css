@@ -1,0 +1,17 @@
+.contacto__boton{
+    transition: 0.1s;
+    align-self: center;
+    width: 15rem;
+    color: var(--light-blue);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.contacto__boton:hover{
+    cursor: pointer;
+}
+
+.contacto__boton:active{
+    background-color:var(--medium-blue);
+    border-bottom: 5px solid var(--blue);
+}

@@ -1,0 +1,44 @@
+.banner{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0rem;
+    margin-top: 5rem;
+}
+
+.banner__img{
+    padding: 1rem;
+    width: 25%;
+    height: 15%;
+    border-radius: 50%;
+}
+.banner__menu{
+    display: block;
+    padding: 3rem 1rem;
+}
+
+.banner__titulo{
+    color: #333333;
+    font-size: 3rem;
+    font-family: var(--gothic);
+    font-weight: 800;
+}
+
+.banner__descripcion{
+    padding: 1rem 0.3rem;
+    background-color: var(--medium-blue);
+    color: var(--light-blue);
+    font-family: var(--gothic);
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+.banner__link{
+    font-size: 1.2rem;
+    color: var(--dark-blue);
+    text-decoration: none;
+    margin-right: 1.25rem;
+}
+
+.banner__link:hover{
+    font-weight: 700;
+}

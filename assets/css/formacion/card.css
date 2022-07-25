@@ -1,0 +1,53 @@
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.formacion__card{
+    transition: 1s;
+    background-color: #fdfdfd;
+    padding: 1rem;
+    margin: 1rem;
+    display: grid;
+    grid-template-areas: 
+        "imagen"
+        "titulo"
+        "fecha";
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top: 5px solid var(--medium-blue);
+}
+
+.card__img{
+    width: 12rem;
+    grid-area: imagen;
+    padding: 1rem 4rem;
+}
+
+.card__titulo{
+    grid-area: titulo;
+    text-align: center;
+    margin: 0;
+}
+
+.card__fecha{
+    grid-area: fecha;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+    color: rgba(26, 25, 25, 0.815);
+}
+
+.cisco__logo{
+    width: 12.5rem;
+    height: 8rem;
+}
+
+/*----------------------------Efecto visual-----------------------------------------------------------*/
+
+.formacion__card:hover{
+    transition: 1s;
+    padding: 1.5rem;
+    border-top: 8px solid var(--medium-blue);
+    
+}

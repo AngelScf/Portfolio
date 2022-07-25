@@ -1,0 +1,22 @@
+.menu{
+    display: flex;
+}
+.menu__lista{
+    display: flex;
+    list-style: none;
+}
+.menu__item:last-child .menu__link{
+    margin-right: 0;
+}
+
+.menu__link{
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+
+.menu__titulo{
+    color: #fdfdfd;
+    font-size: 3rem;
+    font-family: var(--gothic);
+    font-weight: 800;
+}

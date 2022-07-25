@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--dark-blue);
+}
+.footer__firma{
+    font-family: var(--gothic);
+    color: var(--light-blue);
+}
+
+.firma{
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.firma__fecha{
+    margin-top: 0;
+    font-size: .8rem;
+    color: #ededed;
+}

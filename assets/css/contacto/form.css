@@ -1,0 +1,61 @@
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 1rem;
+}
+
+.contacto__img{
+    padding: 1rem;
+    width: 60%;
+}
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    font-family: var(--gothic);
+}
+
+.contacto__titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 2rem;
+}
+
+.contacto__subtitulo{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.contacto__descripcion{
+    padding-top: 1.5rem;
+    line-height: 1.5rem;
+}
+.contacto__label{
+    margin-left: .5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: var(--dark-blue);
+}
+
+.contacto__input, .contacto__mensaje{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    resize: none;
+    border:none;  
+    outline: none;
+    border-bottom: 0.2rem solid #3333;
+}
+
+.contacto__input{
+    height: 1.8rem;
+    padding: 0.5rem 0.7rem;
+}
+
+.contacto__mensaje{
+    padding: 1rem 0.7rem;
+    border-left: 0.2rem solid #3333;
+    border-right: 0.2rem solid #3333;
+}
+

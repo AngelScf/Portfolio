@@ -1,0 +1,29 @@
+.proyecto__card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.proyecto__titulo-container{
+    margin: 1rem;
+    width: 50vh;
+    
+}
+.proyecto__imagen{
+    width: 35rem;
+}
+.proyecto__titulo{
+    color: var(--dark-blue);
+}
+.boton{
+    height: 2.4rem;
+    border: none;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 10%;
+    background-color: var(--medium-blue);
+}
+.boton_link{
+    text-decoration: none;
+    color: #fdfdfd;
+}
