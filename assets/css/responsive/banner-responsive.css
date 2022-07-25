@@ -1,0 +1,24 @@
+/*--------------TABLET----------------------------*/
+@media screen and (max-width:800px){
+    .banner{
+        margin-top: 0;
+    }
+    .banner__img{
+        align-self: center;
+    }
+}
+/*--------------MOVIL----------------------------*/
+
+@media screen and (max-width:666px){
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner__img{
+        justify-content: flex-start;
+    }
+    .banner__menu{
+        display: flex;
+        flex-direction: column;
+    } 
+}

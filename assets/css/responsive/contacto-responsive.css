@@ -1,0 +1,9 @@
+@media screen and (max-width:800px) {
+    .contacto__img{
+        display: none;
+    }
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+}

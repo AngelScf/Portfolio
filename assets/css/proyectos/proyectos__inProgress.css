@@ -1,0 +1,7 @@
+.boton-inactive, .boton-inactive a{
+    cursor: not-allowed;
+}
+
+.boton-inactive{
+    background-color: #3333;
+}

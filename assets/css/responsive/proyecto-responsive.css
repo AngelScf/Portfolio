@@ -1,0 +1,31 @@
+/*--------------TABLET----------------------------*/
+@media screen and (max-width:800px){
+    .proyecto__card{
+        flex-direction: column-reverse;
+    }
+    .titulo-container__botones{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .proyecto__repositorio-boton, .proyecto__demo-boton{
+        width: 10rem;
+    }
+}
+
+/*--------------MOVIL----------------------------*/
+@media screen and (max-width:666px){
+    .proyecto__card{
+        padding: 1rem 1rem;
+    }
+    .proyecto__imagen {
+        width: 100%;
+    }
+    .titulo-container__botones{
+        display: flex;
+        justify-content: space-around;
+    }
+    .proyecto__repositorio-boton, .proyecto__demo-boton{
+        width: 6rem;
+    }
+}

@@ -1,0 +1,34 @@
+/*--------------TABLET----------------------------*/
+@media screen and (max-width:800px){
+    .cabecera{
+        display: block;
+    }   
+}
+
+/*--------------MOVIL----------------------------*/
+
+@media screen and (max-width:666px){
+    .cabecera{
+        display: block;
+    }
+    .menu__lista{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    .menu__item{
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+    .menu__lista{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .menu__item{
+        font-weight: 100;
+        line-height: 2.5rem;
+        align-self: flex-start;
+    }  
+}
